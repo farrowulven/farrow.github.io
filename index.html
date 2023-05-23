@@ -14,9 +14,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
-	<script src="js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+	function buttonFunction() {
+	var button = this;
+	button.style.display = "none";
+	var hiddenParagraph = document.getElementById("hiddenParagraph");
+	hiddenParagraph.style.display = "block";
+	}
+    </script>
 
 </head>
 
@@ -102,18 +110,12 @@
 							“Valuing Biodiversity: Affirming a Metaethics of Life”. 25 February 2022. International Society for Environmental Ethics Session at APA Central. Chicago, Illinois, United States. <br><br>
 							“Disciplinary Societies and Societies of Control: From Cinema to Stream”. 18 November 2021. <em>Images Between Series and Stream: Rethinking Seriality and Streaming</em>. University of Warsaw.<br><br>
 							"Reimagining the Kantian Cosmopolitan Order". 29 October 2021. <em>Fragile Lands, Power Politics</em>. Concerned Philosophers for Peace.<br>
-							<button class="button1">More</button>
+							<button class="button1" onclick="buttonFunction()">More</button>
 							<p style="display: none;">
 							"Algorithms and International Justice: Observations from the Ascending and Descending Characters of International Law". 24 September 2021. V Kharkiv International Legal Forum, <em>Digital Technologies, Human Experience and Law</em>. Centre for Law, Ethics and Digital Technologies (Yaroslav Mudryi National Law University).<br><br>
 							"Transitional Justice and the Age of Accountability: Conceptual Analysis of the Legalistic Notion of Accountability". 10 June 2021. <em>Philosophy Across Disciplines Conference</em>. University of Newcastle.<br><br>
 							“Haecceity: The Principle of Individuation in the Metaphysics of John Duns Scotus and Gottfried Wilhelm Leibniz”. 26 October 2019. <em>Minnesota Philosophical Society Annual Conference</em>. Cambridge, Minnesota, United States.<br><br>
 							</p>
-							<script>
-								$("button").click(function() {
-  								$("p:hidden").show();
-  								$("this").hide();
-								});
-							</script>
 						</p>
 					<br>	  
 				</div>
