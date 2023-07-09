@@ -1,137 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+	<head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Farrow Ulven">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="Farrow Ulven">
+		
+		<title>Farrow Ulven</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: Arial, sans-serif;
+			}
 
-    <title>Farrow Ulven</title>
+			.container {
+				width: 80vh;
+				height: 80vh;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: repeat(3, 1fr);
+				gap: 1em;
+			}
 
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+			.box {
+				position: relative;
+				background-color: #888;
+			}
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script>
-	function buttonFunction() {
-	var button = this;
-	button.style.display = "none";
-	var hiddenParagraph = document.getElementById("hiddenParagraph");
-	hiddenParagraph.style.display = "block";
-	}
-    </script>
+			.box img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				cursor: pointer;
+			}
 
-</head>
+			.overlay {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: none;
+				justify-content: center;
+				align-items: center;
+				z-index: 1;
+			}
 
-<body>
-	<nav class="navbar">
- 	<div class="container">
-  	<a class="navbar-brand" href="#">
-      	<img src="img/title.png" alt="" width="233">
-    	</a>
-  	</div>
-	</nav>
+			.overlay img {
+				width: 95%;
+				max-height: 95%;
+				object-fit: contain;
+			}
 
-	<section id="summary">
+			.close-btn {
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin: 1em;
+				width: 1.9em;
+				height: 1.9em;
+				cursor: pointer;
+			}
+
+			.close-btn::before,
+			.close-btn::after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				background-color: #fff;
+			}
+
+			.close-btn::before {
+				transform: rotate(45deg);
+			}
+
+			.close-btn::after {
+				transform: rotate(-45deg);
+			}
+		</style>
+		<script>
+			window.addEventListener('DOMContentLoaded', event => {
+				document.addEventListener('contextmenu', event => event.preventDefault());
+				document.addEventListener('dragstart', event => event.preventDefault());
+			});
+		</script>
+	</head>
+	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col big-letter">
-					<p>
-						Farrow Ulven is a philosopher specializing in social and political philosophy with broader interests in the history of philosophy, metaphysics, and philosophy of science. Farrow completed a B.A. in philosophy at the University of Minnesota in 2020 with a thesis comparing and historicizing the respective accounts of individuation in the work of John Duns Scotus and Gottfried Leibniz. 
-					</p>
-				</div>
-				<div class="col">
-					<p>
-						Current projects include the development of a digital resource featuring a new translation of the first part of Spinoza's <em>Ethics</em> co-presented with the Latin of the <em>Opera Posthumana</em> which diplays color-coded textual differences between the <em>OP</em> and the recently uncovered manuscript held at the Vatican Library. This resource will further host an artistic rendering of the primary definitions, axioms, and propositions of the <em>Ethics</em> as well as an attempt at rendering each in modern logical form. 
-					</p>
-				</div>
-				</div>
-				</div>
-	</section>
-
-	<section id="carousel">
-		<div id="carouselfade" class="carousel slide carousel-fade center" data-bs-ride="carousel">
-		<div class="carousel-inner">
-
-			<div class="carousel-item active" data-bs-interval="3000">
-			<img src="img/trinitylib.jpg" class="d-block w-100" alt="...">
-			</div>
-	
-	    	<div class="carousel-item" data-bs-interval="3000">
-			<img src="img/dunluce.jpg" class="d-block w-100" alt="...">
-			</div>
-	
-			<div class="carousel-item" data-bs-interval="3000">
-			<img src="img/landscape.jpg" class="d-block w-100" alt="...">
-		</div>
+			<div class="box"><img src="placeholder1.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder2.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder3.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder4.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder5.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder6.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder7.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder8.png" rel="nofollow"></div>
+			<div class="box"><img src="placeholder9.png" rel="nofollow"></div>
 		</div>
 
+		<div class="overlay">
+			<div class="close-btn"></div>
+			<img src="">
 		</div>
-	</section>
 
-<br><br>
-	<section class="cv" id="cv">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h4>Research Interests</h4>
-					<p>
-					Social &amp; Political Philosophy<br>
-					Applied Ethics<br>
-					Philosophy of Science<br>
-					Metaphysics<br>
-					History of Concepts<br>
-					Early Modern Philosophy<br>
-					<br>
+		<script>
+			const boxes = document.querySelectorAll('.box');
+			const overlay = document.querySelector('.overlay');
+			const overlayImage = document.querySelector('.overlay img');
+			const closeButton = document.querySelector('.close-btn');
+
+			boxes.forEach(box => {
+				box.addEventListener('click', e => {
+					// Get the placeholder image source
+					const placeholderSrc = e.currentTarget.querySelector('img').getAttribute('src');
 					
-					<h4>Education</h4>
-					<p>B.A., Department of Philosophy, University of Minnesota.<br>
-					Ph.D. (<em>In Progress</em>), Department of Philosophy, University of Iowa.</p>
-				</div>
+					// Get the image number from the placeholder source filename
+					const placeholderNumber = placeholderSrc.match(/\d+/)[0];
 
-				<div class="col-md-4">
-					<h4>Grants Received</h4>
-					<p>Spring 2020. University of Minnesota. Research comparing the account of propositions in Edmund Husserl’s <em>Logical Investigations</em> with contemporary act-based conceptions of propositional content. (<a href="https://conservancy.umn.edu/handle/11299/212918" target="_blank">Abstract</a>). Advised by Peter Hanks. </p>
-					<br>	 
-					<h4>Contact </h4>
-					<p>Farrow Ulven
-					<br><a href="mailto:ulven017(at)(umn/dot/edu)">ulven017[at]umn[dot]com</a></p>
-					<br><br>
-				</div>
-				
-				<div class="col-md-4">
-					<h4>Presentations <span style='font-size:12px'>(abstract or paper-reviewed)</span></h4>
-					<p>
-							“Valuing Biodiversity: Affirming a Metaethics of Life”. 25 February 2022. International Society for Environmental Ethics Session at APA Central. Chicago, Illinois, United States. <br><br>
-							“Disciplinary Societies and Societies of Control: From Cinema to Stream”. 18 November 2021. <em>Images Between Series and Stream: Rethinking Seriality and Streaming</em>. University of Warsaw.<br><br>
-							"Reimagining the Kantian Cosmopolitan Order". 29 October 2021. <em>Fragile Lands, Power Politics</em>. Concerned Philosophers for Peace.<br>
-							<button class="button1" onclick="buttonFunction()">More</button>
-							<p style="display: none;">
-							"Algorithms and International Justice: Observations from the Ascending and Descending Characters of International Law". 24 September 2021. V Kharkiv International Legal Forum, <em>Digital Technologies, Human Experience and Law</em>. Centre for Law, Ethics and Digital Technologies (Yaroslav Mudryi National Law University).<br><br>
-							"Transitional Justice and the Age of Accountability: Conceptual Analysis of the Legalistic Notion of Accountability". 10 June 2021. <em>Philosophy Across Disciplines Conference</em>. University of Newcastle.<br><br>
-							“Haecceity: The Principle of Individuation in the Metaphysics of John Duns Scotus and Gottfried Wilhelm Leibniz”. 26 October 2019. <em>Minnesota Philosophical Society Annual Conference</em>. Cambridge, Minnesota, United States.<br><br>
-							</p>
-						</p>
-					<br>	  
-				</div>
-				
-			</div>
-		</div>
-	</section>
+					// Build the full-size image source filename
+					const imageSrc = `img${placeholderNumber}.png`;
 
+					// Set the overlay image source to the full-size image
+					overlayImage.setAttribute('src', imageSrc);
+					overlay.style.display = 'flex';
+				});
+			});
 
-	<footer>
-		<div class="container">
-			<p class="text-center">©2021</p>
-		</div>
-	</footer>
+			closeButton.addEventListener('click', closeOverlay);
 
-<a href="#"><img src="img/top.png" class="img2" alt="..."></a>
+			document.addEventListener('keydown', e => {
+				if (e.key === 'Escape') {
+					closeOverlay();
+				}
+			});
 
-</body>
+			function closeOverlay() {
+				overlayImage.setAttribute('src', '');
+				overlay.style.display = 'none';
+			}
+		</script>
+	</body>
 </html>
