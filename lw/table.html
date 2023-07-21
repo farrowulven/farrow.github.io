@@ -1,0 +1,25 @@
+<html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.tablesorter').tablesorter({
+            sortList: [[0,0]]  // Sort by the first column in ascending order by default
+        });
+    });
+</script>
+<style>
+a {
+    text-decoration: none;
+    color: inherit;
+  }</style>
+<table class='tablesorter'>
+<thead><tr><th></th><th data-sorter='text'>Ms-101</th><th data-sorter='text'>Ms-102</th><th data-sorter='text'>Ms-103</th><th data-sorter='text'>Ms-104</th><th data-sorter='text'>Ts-202</th></tr></thead><tbody>
+<tr><td>Ms-101</td><td style='background-color: #EEF9E5;' data-value='52'>52</td><td style='background-color: #EEF9E5;' data-value='99'>99</td><td style='background-color: #EEF9E5;' data-value='52'>52</td><td style='background-color: #EEF9E5;' data-value='14'>14</td><td style='background-color: #f1f1f1;' data-value=''></td></tr>
+<tr><td>Ms-102</td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #93ca7d;' data-value='759'>759</td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #EEF9E5;' data-value='83'>83</td><td style='background-color: #f1f1f1;' data-value=''></td></tr>
+<tr><td>Ms-103</td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #EEF9E5;' data-value='15'>15</td><td style='background-color: #EEF9E5;' data-value='48'>48</td><td style='background-color: #EEF9E5;' data-value='51'>51</td><td style='background-color: #f1f1f1;' data-value=''></td></tr>
+<tr><td>Ms-104</td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #f1f1f1;' data-value=''></td><td style='background-color: #EEF9E5;' data-value='27'>27</td><td style='background-color: #f1f1f1;' data-value=''></td></tr>
+<tr><td>Ts-202</td><td style='background-color: #EEF9E5;' data-value='12'>12</td><td style='background-color: #EEF9E5;' data-value='76'>76</td><td style='background-color: #EEF9E5;' data-value='44'>44</td><td style='background-color: #70ad81;' data-value='960''><a href='https://farrowulven.github.io/lw/Ts-202_Ms-104.html'>960</a></td><td style='background-color: #EEF9E5;' data-value='36'>36</td></tr>
+</tbody></table>
+<p><i>Sample table of number of similar sentences found between manuscripts (threshold=0.89)</i></p>
+</html>
