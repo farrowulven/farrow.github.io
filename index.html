@@ -26,8 +26,7 @@
 <body>
 	<div id="wrapper"></div>
 	<script>
-		// Retrieve and display images when the HTML loads
-		var dir = "./img/"; // Assumes PNG images are stored in the same directory as the HTML file
+		var dir = "./img/";
 		fetch(dir)
 			.then(response => response.text())
 			.then(data => {
