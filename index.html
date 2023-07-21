@@ -1,152 +1,57 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+	<style>	
+		#wrapper {
+			margin: 0 auto;
+			width: 80%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			min-height: auto;
+			opacity: 50;
+		}
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="Farrow Ulven">
+		.img {
+			width: 5%;
+			height: auto;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper"></div>
 
-		<title>Farrow Ulven</title>
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				height: 100vh;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				font-family: Arial, sans-serif;
-			}
-
-			.container {
-				width: 80vh;
-				height: 80vh;
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-				grid-template-rows: repeat(3, 1fr);
-				gap: 1em;
-			}
-
-			.box {
-				position: relative;
-				background-color: #888;
-			}
-
-			.box img {
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
-				cursor: pointer;
-			}
-
-			.overlay {
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
-				display: none;
-				justify-content: center;
-				align-items: center;
-				z-index: 1;
-			}
-
-			.overlay img {
-				width: 95%;
-				max-height: 95%;
-				object-fit: contain;
-			}
-
-			.close-btn {
-				position: absolute;
-				top: 0;
-				right: 0;
-				margin: 1em;
-				width: 1.9em;
-				height: 1.9em;
-				cursor: pointer;
-			}
-
-			.close-btn::before,
-			.close-btn::after {
-				content: "";
-				position: absolute;
-				width: 100%;
-				height: 1px;
-				background-color: #fff;
-			}
-
-			.close-btn::before {
-				transform: rotate(45deg);
-			}
-
-			.close-btn::after {
-				transform: rotate(-45deg);
-			}
-		</style>
-		<script>
-			window.addEventListener('DOMContentLoaded', event => {
-				document.addEventListener('contextmenu', event => event.preventDefault());
-				document.addEventListener('dragstart', event => event.preventDefault());
-			});
-		</script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="box"><img src="img/placeholder1.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder2.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder3.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder4.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder5.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder6.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder7.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder8.png" rel="nofollow"></div>
-			<div class="box"><img src="img/placeholder9.png" rel="nofollow"></div>
-		</div>
-
-		<div class="overlay">
-			<div class="close-btn"></div>
-			<img src="">
-		</div>
-
-		<script>
-			const boxes = document.querySelectorAll('.box');
-			const overlay = document.querySelector('.overlay');
-			const overlayImage = document.querySelector('.overlay img');
-			const closeButton = document.querySelector('.close-btn');
-
-			boxes.forEach(box => {
-				box.addEventListener('click', e => {
-					// Get the placeholder image source
-					const placeholderSrc = e.currentTarget.querySelector('img').getAttribute('src');
-					
-					// Get the image number from the placeholder source filename
-					const placeholderNumber = placeholderSrc.match(/\d+/)[0];
-
-					// Build the full-size image source filename
-					const imageSrc = `img/img${placeholderNumber}.png`;
-
-					// Set the overlay image source to the full-size image
-					overlayImage.setAttribute('src', imageSrc);
-					overlay.style.display = 'flex';
+	<script>
+		// Retrieve and display images when the HTML loads
+		var dir = "./img/"; // Assumes PNG images are stored in the same directory as the HTML file
+		fetch(dir)
+			.then(response => response.text())
+			.then(data => {
+				var parser = new DOMParser();
+				var html = parser.parseFromString(data, 'text/html');
+				var files = Array.from(html.getElementsByTagName('a'))
+					.map(a => a.href)
+					.filter(href => href.endsWith('.png'))
+					.sort((a, b) => {
+						var numA = parseInt(a.match(/(\d+)\.png$/)[1]);
+						var numB = parseInt(b.match(/(\d+)\.png$/)[1]);
+						return numA - numB;
+					});
+				files.forEach(file => {
+					var img = new Image();
+					img.src = file;
+					img.className = "img";
+					wrapper.appendChild(img);
 				});
+			})
+			.catch(error => {
+				console.error(error);
 			});
-
-			closeButton.addEventListener('click', closeOverlay);
-
-			document.addEventListener('keydown', e => {
-				if (e.key === 'Escape') {
-					closeOverlay();
-				}
-			});
-
-			function closeOverlay() {
-				overlayImage.setAttribute('src', '');
-				overlay.style.display = 'none';
-			}
-		</script>
-	</body>
+	</script>
+</body>
 </html>
