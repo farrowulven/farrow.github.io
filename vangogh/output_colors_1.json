@@ -1,0 +1,278 @@
+{
+    "1881_11_01": {
+        "hex_colors": [
+            "#443925"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_01": {
+        "hex_colors": [
+            "#916c4b"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_02": {
+        "hex_colors": [
+            "#937c50"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_03": {
+        "hex_colors": [
+            "#d4c1ac"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_04": {
+        "hex_colors": [
+            "#807a68"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_05": {
+        "hex_colors": [
+            "#626155"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_06": {
+        "hex_colors": [
+            "#aa8f51"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_08": {
+        "hex_colors": [
+            "#5c5842"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_09": {
+        "hex_colors": [
+            "#867b54"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_10": {
+        "hex_colors": [
+            "#595b4e"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_11": {
+        "hex_colors": [
+            "#7c5535"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_13": {
+        "hex_colors": [
+            "#977452"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_14": {
+        "hex_colors": [
+            "#544026"
+        ],
+        "optimal_k": 1
+    },
+    "1882_08_15": {
+        "hex_colors": [
+            "#575139"
+        ],
+        "optimal_k": 1
+    },
+    "1882_09_01": {
+        "hex_colors": [
+            "#93725f"
+        ],
+        "optimal_k": 1
+    },
+    "1883_04_01": {
+        "hex_colors": [
+            "#a28e51"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_01": {
+        "hex_colors": [
+            "#897e5f"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_02": {
+        "hex_colors": [
+            "#875239"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_03": {
+        "hex_colors": [
+            "#705838"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_05": {
+        "hex_colors": [
+            "#716452"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_06": {
+        "hex_colors": [
+            "#8a7149"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_07": {
+        "hex_colors": [
+            "#463b2f"
+        ],
+        "optimal_k": 1
+    },
+    "1883_08_09": {
+        "hex_colors": [
+            "#7c6c5c"
+        ],
+        "optimal_k": 1
+    },
+    "1883_09_01": {
+        "hex_colors": [
+            "#849375"
+        ],
+        "optimal_k": 1
+    },
+    "1883_09_02": {
+        "hex_colors": [
+            "#988a78"
+        ],
+        "optimal_k": 1
+    },
+    "1883_09_03": {
+        "hex_colors": [
+            "#7d6d59"
+        ],
+        "optimal_k": 1
+    },
+    "1883_10_01": {
+        "hex_colors": [
+            "#586246"
+        ],
+        "optimal_k": 1
+    },
+    "1883_10_02": {
+        "hex_colors": [
+            "#734632"
+        ],
+        "optimal_k": 1
+    },
+    "1883_10_03": {
+        "hex_colors": [
+            "#785a3d"
+        ],
+        "optimal_k": 1
+    },
+    "1883_10_04": {
+        "hex_colors": [
+            "#636b5e"
+        ],
+        "optimal_k": 1
+    },
+    "1883_10_05": {
+        "hex_colors": [
+            "#4d5044"
+        ],
+        "optimal_k": 1
+    },
+    "1883_11_01": {
+        "hex_colors": [
+            "#9b835b"
+        ],
+        "optimal_k": 1
+    },
+    "1883_11_02": {
+        "hex_colors": [
+            "#616050"
+        ],
+        "optimal_k": 1
+    },
+    "1883_12_01": {
+        "hex_colors": [
+            "#98603e"
+        ],
+        "optimal_k": 1
+    },
+    "1884_01_01": {
+        "hex_colors": [
+            "#4b4735"
+        ],
+        "optimal_k": 1
+    },
+    "1884_02_01": {
+        "hex_colors": [
+            "#77543b"
+        ],
+        "optimal_k": 1
+    },
+    "1884_02_02": {
+        "hex_colors": [
+            "#746b3c"
+        ],
+        "optimal_k": 1
+    },
+    "1884_03_01": {
+        "hex_colors": [
+            "#8c765a"
+        ],
+        "optimal_k": 1
+    },
+    "1884_04_01": {
+        "hex_colors": [
+            "#886865"
+        ],
+        "optimal_k": 1
+    },
+    "1884_04_02": {
+        "hex_colors": [
+            "#403d38"
+        ],
+        "optimal_k": 1
+    },
+    "1884_05_01": {
+        "hex_colors": [
+            "#363634"
+        ],
+        "optimal_k": 1
+    },
+    "1884_05_02": {
+        "hex_colors": [
+            "#45412e"
+        ],
+        "optimal_k": 1
+    },
+    "1884_07_01": {
+        "hex_colors": [
+            "#44372c"
+        ],
+        "optimal_k": 1
+    },
+    "1884_10_01": {
+        "hex_colors": [
+            "#6e3a23"
+        ],
+        "optimal_k": 1
+    },
+    "1884_10_02": {
+        "hex_colors": [
+            "#513e2f"
+        ],
+        "optimal_k": 1
+    },
+    "1888_12_01": {
+        "hex_colors": [
+            "#92794b"
+        ],
+        "optimal_k": 1
+    }
+}
