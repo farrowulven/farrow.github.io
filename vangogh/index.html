@@ -153,7 +153,7 @@
     // Load JSON data from output_colors_*.json based on slider value
     var data = {};
     function loadData(optimal_k) {
-        fetch(`/output_colors_${optimal_k}.json`)
+        fetch(`output_colors_${optimal_k}.json`)
         .then(response => response.json())
         .then(json => {
             data[optimal_k] = json;
