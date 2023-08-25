@@ -149,8 +149,7 @@
 			</tr>
 		</thead>
         <tbody id="table-body">
-            <!-- Loop through the JSON data and output the colors --><script>
-    // Load JSON data from output_colors_*.json based on slider value
+<script>
     var data = {};
     function loadData(optimal_k) {
         fetch(`/vangogh/output_colors_${optimal_k}.json`)
@@ -161,57 +160,6 @@
         })
         .catch(error => console.error(error));
     }
-
-    // Render table based on slider value and JSON data
-    function renderTable(optimal_k, data) {
-        document.querySelector("#table-body").innerHTML = "";
-        Object.keys(data).forEach(element => {
-                        if (data[element].optimal_k == optimal_k) {
-                            var hexColors = data[element].hex_colors;
-                            var row = document.createElement("tr");
-
-                            // Only display the first 7 characters of each element key
-                            var elementCell = document.createElement("td");
-                            elementCell.innerText = element.substring(0, 7);
-
-                            // Add tooltip with image
-                            var tooltipText = document.createElement("span");
-                            tooltipText.classList.add("tooltiptext");
-                            tooltipText.innerHTML = "<img src='/vangogh/img/" + element + ".jpg' style='max-width: 400px;'>";
-                            elementCell.classList.add("tooltip");
-                            elementCell.appendChild(tooltipText);
-
-                            row.appendChild(elementCell);
-
-                            for (var j = 0; j < hexColors.length; j++) {
-                                var colorCell = document.createElement("td");
-                                var colorBox = document.createElement("div");
-
-                                colorBox.style.backgroundColor = hexColors[j];
-                                colorBox.classList.add("color-box");
-
-                                colorCell.appendChild(colorBox);
-                                row.appendChild(colorCell);
-                            }
-
-                            document.querySelector("#table-body").appendChild(row);
-                        }
-                    });
-    }
-
-    // Add event listener to slider
-    document.querySelector("#slider").addEventListener("input", function() {
-        var sliderValue = document.querySelector("#slider").value;
-        if (data[sliderValue]) {
-            // If JSON data is already loaded, render table
-            renderTable(sliderValue, data[sliderValue]);
-        } else {
-            // Otherwise, load JSON data and render table
-            loadData(sliderValue);
-        }
-    });
-
-    // Load initial data for slider value of 7
     loadData(9);
 </script>
 </tbody>
