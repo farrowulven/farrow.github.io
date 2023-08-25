@@ -1,25 +1,81 @@
+<!DOCTYPE html>
 <html>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.tablesorter').tablesorter({
-            sortList: [[0,0]]  // Sort by the first column in ascending order by default
+<head>
+    <meta charset="UTF-8">
+    <title>LW Table of Similarity between Ms-101--Ms-103, Ts202</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.tablesorter').tablesorter({
+                sortList: [[0,0]]  // Sort by the first column in ascending order by default
+            });
         });
-    });
-</script>
-<style>
-a {
-    text-decoration: none;
-    color: inherit;
-  }</style>
+    </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.blue.min.css">
+  <style>
+    /* Style the <div> element for the slider */
+    div.slider-container {
+        margin-bottom: 10px;
+    }
+    div.slider-container label {
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    div.slider-container input[type=range] {
+        width: 250px;
+    }
+    /* Style a href */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    a:hover {
+        color: rgb(229, 1, 1);
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML table -->
 <table class='tablesorter'>
-    <thead><tr><th></th><th data-sorter='text'>Ms-101</th><th data-sorter='text'>Ms-102</th><th data-sorter='text'>Ms-103</th><th data-sorter='text'>Ms-104</th><th data-sorter='text'>Ts-202</th></tr></thead><tbody>
-    <tr><td>Ms-101</td><td style='background-color: #EEF9E5;' data-value='52.0'>52</td><td style='background-color: #EEF9E5;' data-value='99.0'>99</td><td style='background-color: #EEF9E5;' data-value='52.0'>52</td><td style='background-color: #EEF9E5;' data-value='14.0'>14</td><td style='background-color: #EEF9E5;' data-value='12.0'>12</td></tr>
-    <tr><td>Ms-102</td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='background-color: #7BC35F;' data-value='759.0'>759</td><td style='background-color: #EEF9E5;' data-value='15.0'>15</td><td style='background-color: #EEF9E5;' data-value='83.0'>83</td><td style='background-color: #EEF9E5;' data-value='76.0'>76</td></tr>
-    <tr><td>Ms-103</td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='background-color: #EEF9E5;' data-value='48.0'>48</td><td style='background-color: #EEF9E5;' data-value='51.0'>51</td><td style='background-color: #EEF9E5;' data-value='44.0'>44</td></tr>
-    <tr><td>Ms-104</td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='background-color: #EEF9E5;' data-value='27.0'>27</td><td style='background-color: #007F24;' data-value='960.0'><a href='https://farrowulven.github.io/lw/Ms104_Ts202.html'>960</a></td></tr>
-    <tr><td>Ts-202</td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td><td style='background-color: #EEF9E5;' data-value='36.0'>36</td></tr>
-    </tbody></table>
-<p><i>Sample table of number of similar sentences found between manuscripts (threshold=0.89)</i></p>
+<thead><tr><th></th><th data-sorter='text'>Ms-101</th><th data-sorter='text'>Ms-102</th><th data-sorter='text'>Ms-103</th><th data-sorter='text'>Ms-104</th><th data-sorter='text'>Ts-202</th></tr></thead><tbody>
+<tr><td>Ms-101</td>
+    <td style='background-color: #EEF9E5;' data-value='128.0'><a href='/Ms-101_Ms-101.html'>128</a></td>
+    <td style='background-color: #EEF9E5;' data-value='445.0'><a href='/Ms-101_Ms-102.html'>445</a></td>
+    <td style='background-color: #EEF9E5;' data-value='121.0'><a href='/Ms-101_Ms-103.html'>121</a></td>
+    <td style='background-color: #EEF9E5;' data-value='292.0'><a href='/Ms-101_Ms-104.html'>292</a></td>
+    <td style='background-color: #EEF9E5;' data-value='310.0'><a href='/Ms-101_Ts-202.html'>310</a></td>
+</tr>
+<tr><td>Ms-102</td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='background-color: #C5E9B5;' data-value='1639.0'><a href='/Ms-102_Ms-102.html'>1639</a></td>
+    <td style='background-color: #EEF9E5;' data-value='244.0'><a href='/Ms-102_Ms-103.html'>244</a></td>
+    <td style='background-color: #C5E9B5;' data-value='1361.0'><a href='/Ms-102_Ms-104.html'>1361</a></td>
+    <td style='background-color: #C5E9B5;' data-value='1372.0'><a href='/Ms-102_Ts-202.html'>1372</a></td>
+</tr>
+<tr><td>Ms-103</td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='background-color: #EEF9E5;' data-value='277.0'><a href='/Ms-103_Ms-103.html'>277</a></td>
+    <td style='background-color: #EEF9E5;' data-value='864.0'><a href='/Ms-103_Ms-104.html'>864</a></td>
+    <td style='background-color: #EEF9E5;' data-value='803.0'><a href='/Ms-103_Ts-202.html'>803</a></td>
+</tr>
+<tr><td>Ms-104</td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='background-color: #A2D68E;' data-value='2710.0'><a href='/Ms-104_Ms-104.html'>2710</a></td>
+    <td style='background-color: #007F24;' data-value='6189.0'><a href='/Ms-104_Ts-202.html'>6189</a></td>
+</tr>
+<tr><td>Ts-202</td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='opacity: 0.5; background-color: #f1f1f1;' data-value='0.0'></td>
+    <td style='background-color: #C5E9B5;' data-value='2470.0'><a href='/Ts-202_Ts-202.html'>2470</a></td>
+</tr>
+</tbody></table>
+</body>
 </html>
