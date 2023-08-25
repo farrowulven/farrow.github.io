@@ -1,0 +1,1491 @@
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Ms-101_Ms-103</title>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!-- add the Javascript code to initialize the plugin -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+          <script>
+            $(document).ready(function(){
+                $('.tablesorter').tablesorter({
+                    sortList: [[0,0]]  // Sort by the first column in ascending order by default
+                });
+            });
+          </script>
+        </head>
+        <body>
+          <h1>Ms-101_Ms-103</h1>
+          <table class="tablesorter">
+            <thead>
+              <tr>
+                <th>Manucript Source 1</th>
+                <th>ID</th>
+                <th>Parent Remark</th>
+                <th>Sentence 1</th>
+                <th>Manucript Source 2</th>
+                <th>ID</th>
+                <th>Parent Remark</th>
+                <th>Sentence 2</th>
+                <th>Similarity Coefficient</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Kann jetzt nicht arbeiten.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Kann nicht arbeiten.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Furchtbar heiß.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,18v[2]et19v[1]</td>
+                <td>Furchtbar!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,6r[2]et7r[1]</td>
+                <td>Ich empfand die Schrecken des Krieges.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,42r[3]</td>
+                <td>Das Ich, das Ich ist das tief Geheimnisvolle!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>17</td>
+                <td>Ms-101,9r[2]et10r[1]et11r[1]</td>
+                <td>Gott helfe mir!</td>
+                <td>Ms-103</td>
+                <td>6</td>
+                <td>Ms-103,3v[1]</td>
+                <td>Gott helfe mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>17</td>
+                <td>Ms-101,9r[2]et10r[1]et11r[1]</td>
+                <td>Gott helfe mir!</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,5v[1]</td>
+                <td>Gott helfe mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>17</td>
+                <td>Ms-101,9r[2]et10r[1]et11r[1]</td>
+                <td>Gott helfe mir!</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,5v[2]</td>
+                <td>Gott helfe mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>17</td>
+                <td>Ms-101,9r[2]et10r[1]et11r[1]</td>
+                <td>Gott helfe mir!</td>
+                <td>Ms-103</td>
+                <td>6</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott helfe mir zu leben.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>17</td>
+                <td>Ms-101,9r[2]et10r[1]et11r[1]</td>
+                <td>Gott helfe mir!</td>
+                <td>Ms-103</td>
+                <td>11</td>
+                <td>Ms-103,17v[4]et18v[1]</td>
+                <td>Gott helfe mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,20v[3]</td>
+                <td>Viel zu tun.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,1v[2]</td>
+                <td>Viel Ungewohntes zu tun gezwungen.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Heute nacht wird strenge Bereitschaft sein.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Heute strenge Bereitschaft.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,3v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>10</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,8v[2]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>8</td>
+                <td>Ms-103,8v[3]et9v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,12v[3]et13v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>12</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>16</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,3v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>10</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,8v[2]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>8</td>
+                <td>Ms-103,8v[3]et9v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,12v[3]et13v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>16</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,3v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>10</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,8v[2]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>8</td>
+                <td>Ms-103,8v[3]et9v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,12v[3]et13v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Amen.</td>
+                <td>Ms-103</td>
+                <td>16</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Amen.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,23v[2]</td>
+                <td>Die Nacht vergieng ruhig.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,6v[1]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>6</td>
+                <td>Ms-103,6v[1]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,8v[2]</td>
+                <td>Aber Dein Wille geschehe.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,12v[3]et13v[1]</td>
+                <td>Aber Dein Wille geschehe!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,13v[2]</td>
+                <td>Aber Dein Wille geschehe.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Ruhige Nacht. ––</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Ruhige Nacht. ––</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.75</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,40v[2]</td>
+                <td>Also, ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,41v[3]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,41v[3]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,42v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[2]</td>
+                <td>Nacht verlief ruhig.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,42v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>10</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Erinnere dich wie groß die Gnade der Arbeit ist! ––.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,16v[2]</td>
+                <td>Die Gnade der Arbeit.</td>
+                <td>0.7385489458759966</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,6v[2]et7v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Gott sei mit mir.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,10v[3]et12v[1]</td>
+                <td>Gott mit mir!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>7</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Gott sei mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>15</td>
+                <td>Ms-103,14v[5]et15v[1]</td>
+                <td>Nur Gott mit mir!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,15v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>16</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Wie furchtbar.</td>
+                <td>Ms-103</td>
+                <td>9</td>
+                <td>Ms-103,18v[2]et19v[1]</td>
+                <td>Furchtbar!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>19</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Konnte nicht viel arbeiten, arbeite aber mit Zuversicht.  ––––.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,13v[3]et14v[1]</td>
+                <td>Kann nicht arbeiten.</td>
+                <td>0.7302967433402217</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,6v[1]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>6</td>
+                <td>Ms-103,6v[1]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,7v[3]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>5</td>
+                <td>Ms-103,8v[2]</td>
+                <td>Aber Dein Wille geschehe.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,12v[3]et13v[1]</td>
+                <td>Aber Dein Wille geschehe!</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-103</td>
+                <td>3</td>
+                <td>Ms-103,13v[2]</td>
+                <td>Aber Dein Wille geschehe.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,17r[3]et18r[1]</td>
+                <td>Es scheint nein!</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,71r[2]</td>
+                <td>Es scheint nein!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,19r[5]</td>
+                <td>Der letzte Satz ist eigentlich nichts  anderes als der  uralte Einwand gegen  die  Identität in der Mathematik.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,33r[3]</td>
+                <td>Die Welt des Glücklichen ist eine andere als die des Unglücklichen.</td>
+                <td>0.7356829380292479</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,19r[6]</td>
+                <td>Könnte man sagen: Die Logik kümmert  die  Analysierbarkeit der Funktionen  mit denen sie arbeitet nicht.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,50r[3]et51r[1]</td>
+                <td>Das philosophische Ich ist nicht der Mensch, nicht der menschliche Körper oder die menschliche Seele mit den psychologischen Eigenschaften, sondern das methaphysische Subjekt die Grenze (nicht ein Teil) der Welt.</td>
+                <td>0.7145896010104963</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,9v[3]et10v[1]</td>
+                <td>Das ist die Schule der falschen  Lebensauffassung!</td>
+                <td>0.7028634960055147</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,42r[1]</td>
+                <td>Wäre der Wille nicht, so gäbe es auch nicht jenes Zentrum der Welt das wir das Ich nennen und das der Träger der Ethik ist.</td>
+                <td>0.7253513529935096</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,9v[3]et10v[1]</td>
+                <td>Das ist die Schule der falschen  Lebensauffassung!</td>
+                <td>0.7060180864974624</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>12</td>
+                <td>Ms-103,8r[8]et9r[1]et10r[1]</td>
+                <td>Das Gebet ist der Gedanke an den Sinn  des Lebens.</td>
+                <td>0.7236272269866326</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,30r[5]et31r[1]</td>
+                <td>Und dassß die Welt des Glücklichen  eine andere ist als die Welt des Unglücklichen ist auch klar.</td>
+                <td>0.7139306476801298</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,33r[3]</td>
+                <td>Die Welt des Glücklichen ist eine andere als die des Unglücklichen.</td>
+                <td>0.7666981720054651</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,58r[3]</td>
+                <td>Die Einsinnigkeit ist  eine logische Eigenschaft der Zeit.</td>
+                <td>0.7155417527999327</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,63r[2]</td>
+                <td>Ist das die Log Lösung des Rätsels warum die Menschen immer glaubten ein Geist sei der ganzen Welt gemein.</td>
+                <td>0.7288480720939872</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,51r[2]</td>
+                <td>Die Beschreibung der Welt durch Sätze ist nur dadurch möglich daß das Bezeichnete nicht sein eigenes Zeichen ist!</td>
+                <td>Ms-103</td>
+                <td>6</td>
+                <td>Ms-103,8r[8]et9r[1]et10r[1]</td>
+                <td>Daß das Leben die Welt ist.</td>
+                <td>0.710046946804693</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,51r[2]</td>
+                <td>Die Beschreibung der Welt durch Sätze ist nur dadurch möglich daß das Bezeichnete nicht sein eigenes Zeichen ist!</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,71r[4]</td>
+                <td>Ist das möglich?</td>
+                <td>0.7378647873726218</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,52r[3]</td>
+                <td>Die Theorie der logischen Abbildung durch die Sprache giebt als erste einen Aufschluß über das Wesen der Wahrheits-Beziehung.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,33r[3]</td>
+                <td>Die Welt des Glücklichen ist eine andere als die des Unglücklichen.</td>
+                <td>0.7345586196235957</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,64r[2]</td>
+                <td>Man könnte sagen Der Sinn des Satzes ist das was er vorstellt.</td>
+                <td>Ms-103</td>
+                <td>12</td>
+                <td>Ms-103,8r[8]et9r[1]et10r[1]</td>
+                <td>Das Gebet ist der Gedanke an den Sinn  des Lebens.</td>
+                <td>0.7035264706814484</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,65r[3]</td>
+                <td>Die Darstellung der Welt durch ganz allgemeine Sätze könnte man die unpersönliche Darstellung der Welt nennen.</td>
+                <td>Ms-103</td>
+                <td>2</td>
+                <td>Ms-103,71r[5]et72r[1]</td>
+                <td>Der eine nimmt  bezieht sich auf den Gesichtsteil der Welt Gesichts Welt Gesichtswelt den Gesichtsteil der Welt der andere auf den Welt Teil  den Teil des Muskelgefühls.</td>
+                <td>0.7190924955066746</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-103</td>
+                <td>4</td>
+                <td>Ms-103,9v[3]et10v[1]</td>
+                <td>Das ist die Schule der falschen  Lebensauffassung!</td>
+                <td>0.7204519709290332</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-103</td>
+                <td>12</td>
+                <td>Ms-103,8r[8]et9r[1]et10r[1]</td>
+                <td>Das Gebet ist der Gedanke an den Sinn  des Lebens.</td>
+                <td>0.714130945728134</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,42r[1]</td>
+                <td>Wäre der Wille nicht, so gäbe es auch nicht jenes Zentrum der Welt das wir das Ich nennen und das der Träger der Ethik ist.</td>
+                <td>0.7058024987933117</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,45r[3]</td>
+                <td>Das Leben der Erkenntnis ist das Leben, welches glücklich ist, der Not der Welt zum Trotz.</td>
+                <td>0.702548764396565</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,70r[3]</td>
+                <td>Es giebt eben verschiedene Darstellungsweisen, auch durch das Bild, und das Darstellende ist nicht nur das Zeichen oder Bild sondern auch die Methode der Darstellung.</td>
+                <td>Ms-103</td>
+                <td>1</td>
+                <td>Ms-103,42r[1]</td>
+                <td>Wäre der Wille nicht, so gäbe es auch nicht jenes Zentrum der Welt das wir das Ich nennen und das der Träger der Ethik ist.</td>
+                <td>0.7290230186047956</td>
+              </tr>
+        
+            </tbody>
+          </table>
+        </body>
+      </html>
+    

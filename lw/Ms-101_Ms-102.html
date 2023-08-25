@@ -1,0 +1,5379 @@
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Ms-101_Ms-102</title>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!-- add the Javascript code to initialize the plugin -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+          <script>
+            $(document).ready(function(){
+                $('.tablesorter').tablesorter({
+                    sortList: [[0,0]]  // Sort by the first column in ascending order by default
+                });
+            });
+          </script>
+        </head>
+        <body>
+          <h1>Ms-101_Ms-102</h1>
+          <table class="tablesorter">
+            <thead>
+              <tr>
+                <th>Manucript Source 1</th>
+                <th>ID</th>
+                <th>Parent Remark</th>
+                <th>Sentence 1</th>
+                <th>Manucript Source 2</th>
+                <th>ID</th>
+                <th>Parent Remark</th>
+                <th>Sentence 2</th>
+                <th>Similarity Coefficient</th>
+              </tr>
+            </thead>
+            <tbody>
+    
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,IIr[2]</td>
+                <td>Zu senden an Hon.  B. Russell  Trinity College  Cambridge England</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,IIr[1]</td>
+                <td>Für Hon. B. Russell  Trinity College   Cambridge  England</td>
+                <td>0.7559289460184543</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[3]et7v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,16v[3]et17v[1]et18v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>17</td>
+                <td>Ms-102,18v[2]et19v[1]et20v[1]</td>
+                <td>Fast nichts  nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,27v[2]et28v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>12</td>
+                <td>Ms-102,31v[3]et32v[1]et33v[1]</td>
+                <td>Nicht viel gearbeitet aber nicht ohne Anregung.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,38v[2]et39v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,39v[2]et40v[1]et41v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,44v[3]et45v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,46v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[5]et47v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[2]</td>
+                <td>Nicht gearbeitet. ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,47v[4]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,48v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,54v[3]et55v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[3]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[5]</td>
+                <td>Nicht gearbeitet. ––––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[2]</td>
+                <td>Nicht gearbeitet. ––! ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[4]</td>
+                <td>Nicht gearbeitet. ––. ––––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[5]et58v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Nicht gearbeitet. ––</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60v[2]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,60v[3]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,60v[4]et61v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[4]et62v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[3]et63v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[4]et64v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,67v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,69v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[2]</td>
+                <td>Arbeite!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,1r[2]et2r[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,72v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[3]et7v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,44v[3]et45v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,46v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[5]et47v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[2]</td>
+                <td>Nicht gearbeitet. ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,48v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,50v[4]et51v[1]</td>
+                <td>Arbeite noch nicht mit großem Animo.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,51v[2]</td>
+                <td>Ein wenig gearbeitet; noch nicht gut.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,54v[3]et55v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[5]</td>
+                <td>Nicht gearbeitet. ––––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[2]</td>
+                <td>Nicht gearbeitet. ––! ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[4]</td>
+                <td>Nicht gearbeitet. ––. ––––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[5]et58v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Nicht gearbeitet. ––</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,60v[4]et61v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[4]et62v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[3]et63v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[4]et64v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,67v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,67v[3]</td>
+                <td>Und noch immer arbeite ich nicht.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,69v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,2r[2]</td>
+                <td>Noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,72v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[3]et7v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,44v[3]et45v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,46v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[5]et47v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[2]</td>
+                <td>Nicht gearbeitet. ––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,48v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,54v[3]et55v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[5]</td>
+                <td>Nicht gearbeitet. ––––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[2]</td>
+                <td>Nicht gearbeitet. ––! ––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[4]</td>
+                <td>Nicht gearbeitet. ––. ––––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[5]et58v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Nicht gearbeitet. ––</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,60v[4]et61v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[4]et62v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[3]et63v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[4]et64v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,67v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,69v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,5r[4]et6r[1]</td>
+                <td>Heute noch nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,72v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,7r[2]</td>
+                <td>Ein wenig aber erfolglos gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>20</td>
+                <td>Ms-102,8v[2]et9v[1]et10v[1]</td>
+                <td>Ein wenig gearbeitet.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,7r[2]</td>
+                <td>Ein wenig aber erfolglos gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,43v[3]et44v[1]</td>
+                <td>V Ein wenig gearbeitet.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,7r[2]</td>
+                <td>Ein wenig aber erfolglos gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[2]</td>
+                <td>Ein wenig gearbeitet. ––.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,7r[2]</td>
+                <td>Ein wenig aber erfolglos gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[3]</td>
+                <td>Ein wenig gearbeitet.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,7r[2]</td>
+                <td>Ein wenig aber erfolglos gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,46v[4]</td>
+                <td>Ein wenig gearbeitet. ––.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,8r[2]</td>
+                <td>Das  weiß der Teufel.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,78r[2]</td>
+                <td>Der Zusammenhang von Wissen & Gewußtem ist der der logischen Notwendigkeit.</td>
+                <td>0.7144345083117604</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,8r[2]</td>
+                <td>Das  weiß der Teufel.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,93r[1]</td>
+                <td>Der allgemeine Begriff der Abbildung und der der Koordinaten.</td>
+                <td>0.7126966450997985</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,8r[2]</td>
+                <td>Das  weiß der Teufel.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,161r[1]</td>
+                <td>Die Forderung der einfachen Dinge, ist die Forderung der Bestimmtheit des Sinnes.</td>
+                <td>0.7001400420140049</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,8r[3]</td>
+                <td>Nur zu!!!</td>
+                <td>Ms-102</td>
+                <td>9</td>
+                <td>Ms-102,1v[2]et2v[1]</td>
+                <td>Nur zu! ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,16v[2]</td>
+                <td>Arbeite viel.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,70v[3]</td>
+                <td>Arbeite.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,16v[2]</td>
+                <td>Arbeite viel.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[1]</td>
+                <td>Arbeite.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,16v[2]</td>
+                <td>Arbeite viel.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[4]</td>
+                <td>Arbeite.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,20v[3]</td>
+                <td>Viel zu tun.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Sehr viel zu tun. ––.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,20v[3]</td>
+                <td>Viel zu tun.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[2]</td>
+                <td>Sonst viel zu tun.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Möge der Geist in mir sein!</td>
+                <td>Ms-102</td>
+                <td>5</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Möge der Geist mir beistehen!</td>
+                <td>0.7302967433402215</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Möge der Geist in mir sein!</td>
+                <td>Ms-102</td>
+                <td>5</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Der Geist sei mit mir!</td>
+                <td>0.7302967433402215</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Möge der Geist in mir sein!</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Der Geist sei mit  mir. ––––.</td>
+                <td>0.7302967433402215</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,20v[4]</td>
+                <td>Gott gebe mir Kraft!</td>
+                <td>Ms-102</td>
+                <td>13</td>
+                <td>Ms-102,13v[2]et14v[1]et15v[1]</td>
+                <td>Gott gebe mir Vernunft & Kraft!!! ––.</td>
+                <td>0.8944271909999159</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[3]et7v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,44v[3]et45v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,46v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[5]et47v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[2]</td>
+                <td>Nicht gearbeitet. ––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,48v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,54v[3]et55v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[5]</td>
+                <td>Nicht gearbeitet. ––––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[2]</td>
+                <td>Nicht gearbeitet. ––! ––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[4]</td>
+                <td>Nicht gearbeitet. ––. ––––.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[5]et58v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Nicht gearbeitet. ––</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,60v[4]et61v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[4]et62v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[3]et63v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[4]et64v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,67v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,69v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gestern &  vorgestern nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,72v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>14</td>
+                <td>Ms-101,22v[2]</td>
+                <td>Gott mit mir!</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,23v[2]</td>
+                <td>Die Nacht vergieng ruhig.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,23v[2]</td>
+                <td>Fast nichts gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,8v[1]</td>
+                <td>Fast nichts gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,23v[2]</td>
+                <td>Fast nichts gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>17</td>
+                <td>Ms-102,18v[2]et19v[1]et20v[1]</td>
+                <td>Fast nichts  nicht gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,23v[2]</td>
+                <td>Fast nichts gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,52v[2]</td>
+                <td>Fast nichts gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Gestern nicht gearb..</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,41v[2]</td>
+                <td>Nicht gearb..</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,22v[1]</td>
+                <td>Gegen Abend etwas gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,22v[2]et23v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,44v[2]</td>
+                <td>Doch etwas gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[2]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[3]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,50v[3]</td>
+                <td>Etwas gearbeitet. ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,50v[4]et51v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,52v[5]et53v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,53v[3]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,53v[4]</td>
+                <td>Etwas gearbeitet. ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,54v[2]</td>
+                <td>Etwas – aber erfolglos – gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,59v[2]</td>
+                <td>Gestern etwas gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,59v[3]et60v[1]</td>
+                <td>Gestern & heute etwas gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>15</td>
+                <td>Ms-101,24v[3]</td>
+                <td>Etwas gearbeitet. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[2]</td>
+                <td>Arbeite!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,27v[2]</td>
+                <td>L Heute früh in Krakau angekommen.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,50v[1]</td>
+                <td>Heute spät abends in Krakau angekommen.</td>
+                <td>0.7302967433402215</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,28v[2]</td>
+                <td>Nicht gearb.. ––.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,41v[2]</td>
+                <td>Nicht gearb..</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Ziemlich viel gearbeitet aber ziemlich hoffnungslos.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,11v[2]et12v[1]</td>
+                <td>Ziemlich viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Ziemlich viel gearbeitet aber ziemlich hoffnungslos.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,16v[2]</td>
+                <td>Ziemlich gearbeitet. ––.</td>
+                <td>0.7499999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Ziemlich viel gearbeitet aber ziemlich hoffnungslos.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,20v[2]et21v[1]</td>
+                <td>Ziemlich viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Ziemlich viel gearbeitet aber ziemlich hoffnungslos.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,23v[2]</td>
+                <td>Ziemlich gearbeitet.</td>
+                <td>0.7499999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Ziemlich viel gearbeitet aber ziemlich hoffnungslos.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,31v[2]</td>
+                <td>Ziemlich viel gearbeitet. ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Nachmittags in der Stadt.</td>
+                <td>Ms-102</td>
+                <td>12</td>
+                <td>Ms-102,12v[2]et13v[1]</td>
+                <td>Nachmitt. in der Stadt.</td>
+                <td>0.75</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Nachmittags in der Stadt.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,16v[3]et17v[1]et18v[1]</td>
+                <td>Abends in der Stadt.</td>
+                <td>0.75</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,29v[2]</td>
+                <td>Nachmittags in der Stadt.</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,36v[1]et37v[1]</td>
+                <td>Nachmitt. in der Stadt.</td>
+                <td>0.75</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[4]</td>
+                <td>Gestern ziemlich gearbeitet aber ohne rechten Erfolg.</td>
+                <td>Ms-102</td>
+                <td>12</td>
+                <td>Ms-102,24v[2]et25v[1]et26v[1]</td>
+                <td>Ziemlich gearbeitet aber immer noch ohne Erfolg.</td>
+                <td>0.7142857142857141</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,29v[4]</td>
+                <td>In den letzten Tagen wieder etwas sinnlich.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,53v[5]et54v[1]</td>
+                <td>In den letzten Tagen sehr sinnlich. ––</td>
+                <td>0.7715167498104596</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,22v[1]</td>
+                <td>Gegen Abend etwas gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,22v[2]et23v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,44v[2]</td>
+                <td>Doch etwas gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[2]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[3]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,50v[3]</td>
+                <td>Etwas gearbeitet. ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,50v[4]et51v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,52v[5]et53v[1]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,53v[3]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,53v[4]</td>
+                <td>Etwas gearbeitet. ––.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,54v[2]</td>
+                <td>Etwas – aber erfolglos – gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,59v[2]</td>
+                <td>Gestern etwas gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,59v[3]et60v[1]</td>
+                <td>Gestern & heute etwas gearbeitet.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Etwas gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[2]</td>
+                <td>Arbeite!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Möge der Geist mir Kraft schenken!</td>
+                <td>Ms-102</td>
+                <td>11</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Möge der Geist mir Kraft geben. ––</td>
+                <td>0.8333333333333336</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,29v[5]</td>
+                <td>Möge der Geist mir Kraft schenken!</td>
+                <td>Ms-102</td>
+                <td>5</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Möge der Geist mir beistehen!</td>
+                <td>0.7302967433402215</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,30v[2]</td>
+                <td>Abends nicht ohne Erfolg gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,53v[5]et54v[1]</td>
+                <td>Ohne Erfolg gearbeitet.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,31v[2]</td>
+                <td>Dein Wille geschehe!</td>
+                <td>Ms-102</td>
+                <td>9</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Dein Wille geschehe. ––</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,31v[4]</td>
+                <td>Ziemlich viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Dies ist mir nicht unangenehm.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,31v[3]et32v[1]et33v[1]</td>
+                <td>Dies wäre mir recht unangenehm.</td>
+                <td>0.7999999999999999</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,6v[3]et7v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>17</td>
+                <td>Ms-102,18v[2]et19v[1]et20v[1]</td>
+                <td>Fast nichts  nicht gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,44v[3]et45v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,45v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,46v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,46v[5]et47v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[2]</td>
+                <td>Nicht gearbeitet. ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,47v[4]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,47v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,48v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,48v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,54v[3]et55v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[3]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,55v[5]</td>
+                <td>Nicht gearbeitet. ––––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,56v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[2]</td>
+                <td>Nicht gearbeitet. ––! ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[4]</td>
+                <td>Nicht gearbeitet. ––. ––––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,57v[5]et58v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Nicht gearbeitet. ––</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60v[2]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,60v[3]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,60v[4]et61v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,61v[4]et62v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,62v[3]et63v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,63v[4]et64v[1]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66v[5]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,67v[2]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,69v[2]</td>
+                <td>Nicht gearbeitet!</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,31v[5]</td>
+                <td>Fast nicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,72v[3]</td>
+                <td>Nicht gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,32v[2]</td>
+                <td>A Ziemlich viel gearbeitet aber ohne Hoffnung.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,11v[2]et12v[1]</td>
+                <td>Ziemlich viel gearbeitet.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,32v[2]</td>
+                <td>A Ziemlich viel gearbeitet aber ohne Hoffnung.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,20v[2]et21v[1]</td>
+                <td>Ziemlich viel gearbeitet.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,32v[2]</td>
+                <td>A Ziemlich viel gearbeitet aber ohne Hoffnung.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,31v[2]</td>
+                <td>Ziemlich viel gearbeitet. ––.</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,32v[2]</td>
+                <td>In den nächsten Tagen sollen wir wieder nach  Rußlandland fahren.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,20v[2]et21v[1]</td>
+                <td>Es heißt daß wir in den  nächsten Tagen wieder fahren sollen.</td>
+                <td>0.762770071396474</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,33v[2]</td>
+                <td>Nun also! –</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,178r[3]et179r[1]</td>
+                <td>Also?</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,33v[2]</td>
+                <td>Ob er noch an mich denkt?</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,11v[2]et12v[1]</td>
+                <td>Ob er halb so viel an mich denkt? (?)</td>
+                <td>0.7216878364870323</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gestern ziemlich viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,34v[2]</td>
+                <td>Gott mit mir.</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,34v[3]</td>
+                <td>Der Geist mit mir.</td>
+                <td>Ms-102</td>
+                <td>5</td>
+                <td>Ms-102,58v[2]</td>
+                <td>Der Geist sei mit mir!</td>
+                <td>0.8944271909999159</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,34v[3]</td>
+                <td>Der Geist mit mir.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,58v[3]et59v[1]</td>
+                <td>Der Geist sei mit  mir. ––––.</td>
+                <td>0.8944271909999159</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Gott mit mir! –</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>10</td>
+                <td>Ms-101,36v[2]</td>
+                <td>Den ganzen Tag heftigste Kanonade.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,20v[2]et21v[1]</td>
+                <td>Den ganzen Tag heftiger Geschützdonner von den Werken. –</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Ruhige Nacht. ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,37v[3]</td>
+                <td>Gott mit mir. ––.</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>18</td>
+                <td>Ms-101,38v[2]</td>
+                <td>Gott ist mit mir!</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,40v[2]</td>
+                <td>Also, ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,41v[2]</td>
+                <td>Viel gearb. ––.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,41v[2]</td>
+                <td>Viel gearb. ––.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Sehr viel gearb..</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,41v[3]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,42v[2]</td>
+                <td>Ruhige Nacht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Ruhige Nacht.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>7</td>
+                <td>Ms-101,42v[2]</td>
+                <td>Sehr viel gearb. & nicht ohne Zuversicht.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Sehr viel gearb..</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,30v[3]et31v[1]</td>
+                <td>Gestern sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>10</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Erinnere dich wie groß die Gnade der Arbeit ist! ––.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Die Gnade der Arbeit!! ––.</td>
+                <td>0.7385489458759966</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>10</td>
+                <td>Ms-101,42v[4]</td>
+                <td>Erinnere dich wie groß die Gnade der Arbeit ist! ––.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,71v[6]</td>
+                <td>Die Gnade der Arbeit! ––</td>
+                <td>0.7385489458759966</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Die Lösung des Problems liegt mir auf der Zunge! ––</td>
+                <td>Ms-102</td>
+                <td>11</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Immer wieder liegt mir das fehlende Wort die fehlende Erkenntnis auf der Zunge.</td>
+                <td>0.7324670207647146</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Fühle mich nicht recht wohl, keine echte  Lebenslust. ––!</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,64v[4]et65v[1]</td>
+                <td>Fühle mich nicht wohl.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Sehr viel gearbeitet.  ––</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Sehr viel gearbeitet.  ––</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Sehr viel gearbeitet.  ––</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Sehr viel gearbeitet.  ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,30v[3]et31v[1]</td>
+                <td>Gestern sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,44v[2]</td>
+                <td>Sehr viel gearbeitet.  ––</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Unwohl.</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,68v[4]</td>
+                <td>Anhaltend unwohl.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Unwohl.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,68v[5]</td>
+                <td>Unwohl.</td>
+                <td>1.0</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,30v[3]et31v[1]</td>
+                <td>Gestern sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,45v[2]</td>
+                <td>Gott mit mir.  ––.</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,45v[3]</td>
+                <td>Sehr viel & mit Zuversicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,45v[3]</td>
+                <td>Sehr viel & mit Zuversicht gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,45v[4]</td>
+                <td>Gestern starke Kanonade.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,22v[2]et23v[1]</td>
+                <td>Starke Kanonade. ––.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,45v[4]</td>
+                <td>Viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,45v[4]</td>
+                <td>Viel gearb..</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Sehr viel gearb..</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,45v[4]</td>
+                <td>Den ganzen  Tag gestanden. ––.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,1v[2]et2v[1]</td>
+                <td>Den ganzen Tag gearbeitet.</td>
+                <td>0.75</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Arbeite sehr fleißig aber noch ohne Erfolg.</td>
+                <td>Ms-102</td>
+                <td>12</td>
+                <td>Ms-102,24v[2]et25v[1]et26v[1]</td>
+                <td>Ziemlich gearbeitet aber immer noch ohne Erfolg.</td>
+                <td>0.7142857142857141</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,30v[3]et31v[1]</td>
+                <td>Gestern sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>5</td>
+                <td>Ms-101,46v[2]</td>
+                <td>Denke viel an David.</td>
+                <td>Ms-102</td>
+                <td>5</td>
+                <td>Ms-102,37v[2]</td>
+                <td>Denke viel an den lieben David!</td>
+                <td>0.8164965809277261</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-102</td>
+                <td>15</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Gott mit mir! ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>11</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Gott mit mir! ––</td>
+                <td>Ms-102</td>
+                <td>16</td>
+                <td>Ms-102,28v[2]et29v[1]et30v[1]</td>
+                <td>Gott mit mir. ––. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,1v[1]</td>
+                <td>Sehr viel gearbeitet. ––.</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,5v[2]et6v[1]</td>
+                <td>Nicht sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>10</td>
+                <td>Ms-102,26v[2]et27v[1]</td>
+                <td>Viel gearbeitet.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,30v[3]et31v[1]</td>
+                <td>Gestern sehr viel gearbeitet.</td>
+                <td>0.8660254037844388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>13</td>
+                <td>Ms-101,46v[4]</td>
+                <td>Sehr viel gearbeitet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,73v[3]</td>
+                <td>Arbeite sehr viel!</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,48v[2]</td>
+                <td>Trotzdem viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,48v[3]</td>
+                <td>Sehr viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,48v[3]</td>
+                <td>Sehr viel gearb..</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Sehr viel gearb..</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,48v[3]</td>
+                <td>Heute nacht habe ich Wachdienst. ––.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Heute nacht Wachdienst.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,48v[3]</td>
+                <td>Heute nacht habe ich Wachdienst. ––.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,8v[1]</td>
+                <td>Heute nacht Wachdienst.</td>
+                <td>0.7745966692414834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>9</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Die arme, arme Mama!!! –– ––. ––</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Der arme Trakl! ––!</td>
+                <td>0.7071067811865477</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>19</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Konnte nicht viel arbeiten, arbeite aber mit Zuversicht.  ––––.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,16v[3]et17v[1]et18v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.7302967433402217</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>19</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Konnte nicht viel arbeiten, arbeite aber mit Zuversicht.  ––––.</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,27v[2]et28v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.7302967433402217</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>19</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Konnte nicht viel arbeiten, arbeite aber mit Zuversicht.  ––––.</td>
+                <td>Ms-102</td>
+                <td>7</td>
+                <td>Ms-102,38v[2]et39v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.7302967433402217</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>19</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Konnte nicht viel arbeiten, arbeite aber mit Zuversicht.  ––––.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,39v[2]et40v[1]et41v[1]</td>
+                <td>Nicht viel gearbeitet.</td>
+                <td>0.7302967433402217</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>20</td>
+                <td>Ms-101,48v[4]</td>
+                <td>Dein Wille geschehe. –– ––.</td>
+                <td>Ms-102</td>
+                <td>9</td>
+                <td>Ms-102,6v[2]</td>
+                <td>Dein Wille geschehe. ––</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,50v[2]</td>
+                <td>Sehr viel gearb..</td>
+                <td>Ms-102</td>
+                <td>6</td>
+                <td>Ms-102,3v[2]</td>
+                <td>Viel gearb.</td>
+                <td>0.816496580927726</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>6</td>
+                <td>Ms-101,50v[2]</td>
+                <td>Sehr viel gearb..</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,4v[2]et5v[1]</td>
+                <td>Sehr viel gearb..</td>
+                <td>1.0000000000000002</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,13r[3]et14r[1]</td>
+                <td>Aber wie?</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,41r[3]et42r[1]</td>
+                <td>Aber wie ihm entgehen?</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,13r[3]et14r[1]</td>
+                <td>Aber wie?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,120r[3]et121r[1]</td>
+                <td>Aber wie!</td>
+                <td>0.9999999999999998</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>8</td>
+                <td>Ms-101,13r[3]et14r[1]</td>
+                <td>Aber wie?</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,130r[3]et131r[1]</td>
+                <td>Aber wie das tun!?? –</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,19r[5]</td>
+                <td>Der letzte Satz ist eigentlich nichts  anderes als der  uralte Einwand gegen  die  Identität in der Mathematik.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7210366836744466</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,19r[5]</td>
+                <td>Der letzte Satz ist eigentlich nichts  anderes als der  uralte Einwand gegen  die  Identität in der Mathematik.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7272795420152304</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,19r[5]</td>
+                <td>Der letzte Satz ist eigentlich nichts  anderes als der  uralte Einwand gegen  die  Identität in der Mathematik.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7239737088005909</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7123956116565483</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60r[4]</td>
+                <td>Der Satz ist die Beschreibung eines Sachverhalts.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,70r[2]</td>
+                <td>Der Satz ist ein Maß der Welt.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,84r[4]et85r[1]</td>
+                <td>Die Klasse aller Sätze von der  Form F(x) ist der Satz (x) φx.</td>
+                <td>0.7029594915666376</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7190924955066748</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,20r[3]et21r[1]</td>
+                <td>Wenn eine Definition überhaupt   möglich ist, die dem Satz die    S.P. -Form    giebt  …?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7012937084396781</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[1]</td>
+                <td>Daß der Satz ein  logisches Abbild  seiner Bedeutung ist leuchtet dem   unbefangenen Auge ein.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,15r[3]</td>
+                <td>Der Satz ist das logische Bild eines Sachverhaltes.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,22r[2]</td>
+                <td>Z.B. „Es ist besser wenn dies der Fall ist   als wenn jenes der Fall ist.”</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,59r[5]et60r[1]</td>
+                <td>Das Satzzeichen „p  ⌵  q” stimmt  wenn p wahr der Fall ist, wenn q der Fall ist und wenn beide der Fall sind sonst anderenfalls stimmt es nicht: dies scheint unendlich einfach zu sein; und so einfach wird die Lösung sein.</td>
+                <td>0.7888855592111664</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,12r[3]</td>
+                <td>Muß nicht die Möglichkeit der darstellenden Beziehung durch den Zeichen Satz  den Satz selbst gegeben sein?</td>
+                <td>0.7076303701373626</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,20r[3]</td>
+                <td>Das Satzzeichen verbürgt die Möglichkeit der Tatsache welche es darstellt (nicht daß diese Tatsache wirklich der Fall ist) das gilt auch für die allgemeinen Sätze.</td>
+                <td>0.7108186533109109</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,38r[4]et39r[1]</td>
+                <td>Muß das Zeichen des negativen Satzes mit dem Zeichen des positiven gebildet werden?</td>
+                <td>0.7172191381865588</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,83r[2]</td>
+                <td>Die Klasse aller Zeichen die entweder p oder q bejahen ist der Satz „p ⌵ q”.</td>
+                <td>0.7231015260621872</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7442084075352509</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7506518906054693</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,22r[3]</td>
+                <td>Worin besteht denn die Verbindung  zwischen dem Zeichen  p und den übrigen Zeichen des Satzes: „Es ist   gut daß p der Fall ist.”?</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7494247306438351</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,24r[2]et25r[1]</td>
+                <td>„φ(ψx)geschwungener Doppelfeil”:  Nehmen wir an uns sei eine Funktion eines    S.P. -Satzes gegeben  und  wir wollen die   Art der  Beziehung  der Funktion zum Satz dadurch  erklären  daß wir sagen: Die Funktion bezieht sich  unmittelbar  nur auf das Subjekt des S.P. -Satzes   und was bezeichnet ist das  logische  Produkt aus dieser Beziehung  und dem        S.P.-Satzzeichen.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7493596981579744</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,27r[4]</td>
+                <td>Der allgemeine Begriff des Satzes führt auch  einen  ganz allgemeinen  Begriff der Zuordnung von Satz und Sachverhalt mit  sich: Die Lösung aller meiner Fragen  muß höchst    einfach sein!</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7027309494458374</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,28r[4]et29r[1]</td>
+                <td>„”: Wenn in  diesem Bild der rechte Mann den Menschen  A vorstellt  und bezeichnet der linke den Menschen   B so  könnte etwa das Ganze aussagen  „A ficht mit B”.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7012006985590755</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,31r[3]</td>
+                <td>Nur insoweit ist der Satz ein Bild eines Sachverhalts als er logisch gegliedert ist!</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,15r[3]</td>
+                <td>Der Satz ist das logische Bild eines Sachverhaltes.</td>
+                <td>0.74535599249993</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,31r[4]</td>
+                <td>Der Name ist kein Bild des Benannten!</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7396002616336388</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,33r[2]</td>
+                <td>Also die Sätze nur insoweit sie Bilder der Wirklichkeit sind.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7205766921228922</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,15r[3]</td>
+                <td>Der Satz ist das logische Bild eines Sachverhaltes.</td>
+                <td>0.7602631123499285</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,31r[4]et32r[1]</td>
+                <td>Der Satz, das Bild, das Modell sind – im negativen Sinn – wie ein ein fester Körper der die Bewegungsfreiheit desder anderen beschränkt, im positiven Sinne wie der von fester Substanz begrenzte Raum worin ein Körper Platz hat.</td>
+                <td>0.7183993046875878</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7216878364870323</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60r[4]</td>
+                <td>Der Satz ist die Beschreibung eines Sachverhalts.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,70r[2]</td>
+                <td>Der Satz ist ein Maß der Welt.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,78r[2]</td>
+                <td>Der Zusammenhang von Wissen & Gewußtem ist der der logischen Notwendigkeit.</td>
+                <td>0.7071067811865476</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7452413135250993</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,161r[1]</td>
+                <td>Die Forderung der einfachen Dinge, ist die Forderung der Bestimmtheit des Sinnes.</td>
+                <td>0.7033533126053656</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,33r[5]et34r[1]</td>
+                <td>Der allgemeine Begriff zweier Komplexe von denen der eine das logische Bild des   andern sein kann, also: ist.    in  einem Sinne ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7109667251078113</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,38r[4]et39r[1]</td>
+                <td>Die Sätze die von den unendlichen Zahlen handeln können wie alle Sätze der Logik dadurch erhalten werden daß man die Zeichen selber berechnet (denn es tritt zu den ursprünglichen Urzeichen ja an keiner  Stelle ein fremdes Element hinzu)   also müssen auch hier die Zeichen alle logischen Eigenschaften des Dargestellten selber haben.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,38r[4]et39r[1]</td>
+                <td>Muß das Zeichen des negativen Satzes mit dem Zeichen des positiven gebildet werden?</td>
+                <td>0.717842536077554</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,38r[4]et39r[1]</td>
+                <td>Die Sätze die von den unendlichen Zahlen handeln können wie alle Sätze der Logik dadurch erhalten werden daß man die Zeichen selber berechnet (denn es tritt zu den ursprünglichen Urzeichen ja an keiner  Stelle ein fremdes Element hinzu)   also müssen auch hier die Zeichen alle logischen Eigenschaften des Dargestellten selber haben.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7079800123877109</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,39r[2]</td>
+                <td>Die triviale Satz Tatsache Der triviale Satz Die triviale Tatsache daß ein vollkommen analysierter Satz ebensoviel Namen enthält als seine Bedeutung Dinge, dieser Satz Tatsache  diese Tatsache ist ein Beispiel der allumfassenden Darstellung der Welt durch die Sprache.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7614996105085898</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,40r[2]</td>
+                <td>Aber! –</td>
+                <td>Ms-102</td>
+                <td>4</td>
+                <td>Ms-102,96r[3]et97r[1]</td>
+                <td>Aber welche?</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>4</td>
+                <td>Ms-101,40r[2]</td>
+                <td>Aber! –</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,120r[3]et121r[1]</td>
+                <td>Aber wie!</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,44r[4]et45r[1]</td>
+                <td>Der Satz soll einen Sachverhalt logisch vorbilden.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,15r[3]</td>
+                <td>Der Satz ist das logische Bild eines Sachverhaltes.</td>
+                <td>0.7171371656006361</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7472442356540532</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,12r[3]</td>
+                <td>Muß nicht die Möglichkeit der darstellenden Beziehung durch den Zeichen Satz  den Satz selbst gegeben sein?</td>
+                <td>0.7107680752753326</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,14r[3]et15r[1]</td>
+                <td>Jene willkürliche Zuordnung die von Zeichen & Bezeichnetem die die Möglichkeit der Sätze bedingt und die wir ich in den ganz allgemeinen Sätzen vermißte liegt dort in geschieht dort durch die Allgemeinheitsbezeichnung geradeso wie beim Elementarsatz durch Namen (denn die Allgemeinheitsbezeichnung gehört nicht zum Bild).</td>
+                <td>0.707844064096045</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7281928433801468</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7260551591195435</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,46r[2]</td>
+                <td>Ich habe hier die Beziehungen eines der Satz-Elemente zu ihren Bedeutungen gleichsam als Fühler betrachtet wodurch welche  durch welche der Satz mit der Außenwelt in Berührung steht; und das Verallgemeinern eines Satzes gleicht dann dem Einziehen der Fühler; bis endlich der ganz allgemeine Satz ganz isoliert ist.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.733812952683075</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,46r[3]et47r[1]</td>
+                <td>Denn es ist gar nicht einzusehen warum der gerade der erste Satz & nicht der zweite eine Tautologie sein soll.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,16r[2]</td>
+                <td>Denn das Bild sagt gleichsam: „so ist es nicht” und auf die Frage „wie ist es nicht?” leistet ist eben die Antwort der positive Satz.</td>
+                <td>0.7042476720342524</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,52r[1]</td>
+                <td>Aus dem Satz muß man den logischen Bau des Sachverhaltes ersehen der ihn wahr oder falsch macht.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7201931413999583</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,52r[3]</td>
+                <td>Die Theorie der logischen Abbildung durch die Sprache giebt als erste einen Aufschluß über das Wesen der Wahrheits-Beziehung.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7190924955066749</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,52r[3]</td>
+                <td>Die Theorie der logischen Abbildung durch die Sprache giebt als erste einen Aufschluß über das Wesen der Wahrheits-Beziehung.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,93r[1]</td>
+                <td>Der allgemeine Begriff der Abbildung und der der Koordinaten.</td>
+                <td>0.7337993857053429</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.73471087786057</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,15r[3]</td>
+                <td>Der Satz ist das logische Bild eines Sachverhaltes.</td>
+                <td>0.703221549687725</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7645095721079946</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60r[4]</td>
+                <td>Der Satz ist die Beschreibung eines Sachverhalts.</td>
+                <td>0.7022468831767834</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7141502204773151</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,54r[1]</td>
+                <td>Unser Das Gefühl daß der Satz einen Komplex auf die Art der Russellschen Beschreibungen beschreibe rechtfertigt sich jetzt: Der Satz beschreibt den Komplex nach durch seinen logischen  durch seine logischen Eigenschaften.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7204900999586519</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,56r[3]</td>
+                <td>Ich dachte, die Möglichkeit der Wahrheit eines Satzes φ(a) ist an die Tatsache (∃x,φ) .φx gebunden.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7442084075352509</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,58r[3]</td>
+                <td>Die Allgemeinheit des ganz allgemeinen Satzes ist die zufällige Allgemeinheit.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7190924955066748</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,58r[3]</td>
+                <td>Die Allgemeinheit des ganz allgemeinen Satzes ist die zufällige Allgemeinheit.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7012937084396781</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,60r[3]et61r[1]</td>
+                <td>Der Satz drückt aus was ich nicht weiß, was ich aber doch wissen muß um ihn  überhaupt aussagen zu können das zeige ich in ihm.</td>
+                <td>Ms-102</td>
+                <td>8</td>
+                <td>Ms-102,156r[4]et157r[1]et158r[1]et159r[1]et160r[1]</td>
+                <td>Was ich nicht weiß das weiß ich nicht, aber der Satz muß mir zeigen  was ich weiß.</td>
+                <td>0.7726911394933923</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,61r[4]</td>
+                <td>Der vollkommen analysierte Satz muß seine Bedeutung vorstellen.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,66r[4]</td>
+                <td>Der Satz muß seine Bedeutung vollkommen vollständig beschreiben.</td>
+                <td>0.7499999999999999</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,61r[4]</td>
+                <td>Der vollkommen analysierte Satz muß seine Bedeutung vorstellen.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,171r[3]</td>
+                <td>Die Bestandteile des Satzes müssen einfach sein  =  Der Satz muß vollkommen artikuliert sein.</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,64r[2]</td>
+                <td>Man könnte sagen Der Sinn des Satzes ist das was er vorstellt.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,16r[3]</td>
+                <td>Man könnte sagen: die Verneinung bezieht sich schon auf den logischen Ort den der verneinte Satz bestimmt.</td>
+                <td>0.7003009752518535</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,64r[2]</td>
+                <td>Man könnte sagen Der Sinn des Satzes ist das was er vorstellt.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,17r[3]</td>
+                <td>Der Satz ist wahr, wenn es das giebt was er vorstellt.</td>
+                <td>0.7190924955066748</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,64r[2]</td>
+                <td>Man könnte sagen Der Sinn des Satzes ist das was er vorstellt.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7190924955066748</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,64r[2]</td>
+                <td>Man könnte sagen Der Sinn des Satzes ist das was er vorstellt.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7496587917803456</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[3]</td>
+                <td>Der Satz muß zeigen was er sagen will. –</td>
+                <td>Ms-102</td>
+                <td>3</td>
+                <td>Ms-102,26r[1]</td>
+                <td>Aber will er nicht vielmehr das sagen was „p  ⌵  ~p” zeigt?</td>
+                <td>0.7071067811865475</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,3r[4]</td>
+                <td>Sehr nahe liegt die Verwechslung zwischen der darstellenden Beziehung des Satzes zu seiner Bedeutung und der Wahrheitsbeziehung.</td>
+                <td>0.7489384473623183</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7390268240246335</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,12r[3]</td>
+                <td>Muß nicht die Möglichkeit der darstellenden Beziehung durch den Zeichen Satz  den Satz selbst gegeben sein?</td>
+                <td>0.711389321226528</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7534965224510293</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,60r[4]</td>
+                <td>Der Satz ist die Beschreibung eines Sachverhalts.</td>
+                <td>0.7291583221596409</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>2</td>
+                <td>Ms-102,63r[5]et64r[1]</td>
+                <td>Das heißt, das Wesen aller Tatsachen anzugeben, deren Bild der Satz ist.</td>
+                <td>0.7395428831463806</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,70r[2]</td>
+                <td>Der Satz ist ein Maß der Welt.</td>
+                <td>0.7063721245921522</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,84r[4]et85r[1]</td>
+                <td>Die Klasse aller Sätze von der  Form F(x) ist der Satz (x) φx.</td>
+                <td>0.7370792254261714</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7962890205005104</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,122r[3]</td>
+                <td>Die Kontradiktion ist die äußere Grenze der Sätze; kein Satz bejaht sie.</td>
+                <td>0.7031305165931044</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,161r[1]</td>
+                <td>Die Forderung der einfachen Dinge, ist die Forderung der Bestimmtheit des Sinnes.</td>
+                <td>0.7034041158483603</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7330642383652974</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Die Internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sist internen Relationen zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – sind interne Relation zwischen dem Satz & seiner Bedeutung, die Bezeichnungsweise – ist das System von Koordinaten das den Sachverhalt in den Satz abbildet.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7714787992091031</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Der Satz entspricht den Grundkoordinaten.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,7r[3]et8r[1]</td>
+                <td>Der Satz „‚p’ ist wahr” ist gleichbedeutend mit dem logischen Produkt von ‚p’ und einem Satz „‚p’” der den Satz ‚p’ beschreibt und einer Zuordnung der Bestandteile der beiden  Sätze. –</td>
+                <td>0.7029996402619948</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Der Satz entspricht den Grundkoordinaten.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7337993857053429</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Der Satz entspricht den Grundkoordinaten.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,180r[2]</td>
+                <td>Sind also im Grunde die Sätze der Physik und die Sätze des gewöhnlichen Lebens gleich scharf und besteht der Unterschied nur in diesen der konsequenteren Anwendung der Zeichen in der Sprache der Wissenschaft??</td>
+                <td>0.7049073768502414</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>2</td>
+                <td>Ms-101,67r[4]</td>
+                <td>Der Satz entspricht den Grundkoordinaten.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,187r[2]</td>
+                <td>Es ist also auch dem unbefangenen Geist klar daß der Sinn des Satzes  der Sinn des Satzes „die „Uhr liegt auf dem Tisch” komplizierter ist als der  Satz selbst.</td>
+                <td>0.7367883976130072</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>3</td>
+                <td>Ms-101,67r[5]et68r[1]</td>
+                <td>Damit eine Aussage möglich ist müssen die logischen Koordinaten wirklich einen logischen Ort bestimmen!</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,8r[4]et9r[1]</td>
+                <td>Der Satz muß einen logischen Ort bestimmen.</td>
+                <td>0.7126966450997985</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,68r[2]</td>
+                <td>(Der Gegenstand von welchem die allgemeinen Sätze handeln ist recht eigentlich die Welt; die  in ihnen durch eine logische Beschreibung eintritt.) –</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,34r[5]et35r[1]</td>
+                <td>Der Satz & die logischen Koordinaten: das ist der logische Ort.</td>
+                <td>0.7106690545187018</td>
+              </tr>
+        
+              <tr>
+                <td>Ms-101</td>
+                <td>1</td>
+                <td>Ms-101,70r[3]</td>
+                <td>Es giebt eben verschiedene Darstellungsweisen, auch durch das Bild, und das Darstellende ist nicht nur das Zeichen oder Bild sondern auch die Methode der Darstellung.</td>
+                <td>Ms-102</td>
+                <td>1</td>
+                <td>Ms-102,91r[1]</td>
+                <td>Der Satz ist das Bild der Tatsachen.</td>
+                <td>0.7131859665752946</td>
+              </tr>
+        
+            </tbody>
+          </table>
+        </body>
+      </html>
+    
